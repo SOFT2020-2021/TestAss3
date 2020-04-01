@@ -2,19 +2,18 @@ package businessLayer.controllers;
 
 import contract.Contract;
 import contract.transferables.BankTransferable;
-import contract.transferables.CustomerTransferable;
 
 import java.util.List;
 
-public class CustomerController implements EntityController<CustomerTransferable> {
+public class BankController implements EntityController<BankTransferable>{
 
     @Override
-    public Contract<CustomerTransferable> getOne() {
+    public Contract<BankTransferable> getOne() {
         return null;
     }
 
     @Override
-    public List<Contract<CustomerTransferable>> getMany() {
+    public List<Contract<BankTransferable>> getMany() {
         return null;
     }
 
