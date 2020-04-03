@@ -34,8 +34,5 @@ host    replication     all             ::1/128                 md5
 
 Remember to ``systemctl restart postgresql`` for changes to take effect
 
-#### A little bit about the code
 
-
-<br>
 Lastly, we want to apologize for the 2 missing tests, being the AccountPerformerTest and the TransactionPerformerTest.
