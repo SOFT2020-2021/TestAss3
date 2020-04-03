@@ -14,7 +14,7 @@ GRANT ALL PRIVILEGES ON DATABASE bank TO bankuser;
 in ``pg_hba.conf``, with path ``/etc/postgresql/12/main`` in ubuntu set it up like the following
 ```
 # Database administrative login by Unix domain socket
-local   all             postgres                                trust
+local   all             postgres                                peer
 local   all             bankuser				md5
 # TYPE  DATABASE        USER            ADDRESS                 METHOD
 
