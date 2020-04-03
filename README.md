@@ -9,6 +9,7 @@ sudo -u postgres psql
 CREATE DATABASE bank;
 CREATE USER bankuser WITH ENCRYPTED PASSWORD 'secret';
 GRANT ALL PRIVILEGES ON DATABASE bank TO bankuser;
+ALTER USER bankuser CREATEDB;
 ``` 
 #### setup authentication
 in ``pg_hba.conf``, with path ``/etc/postgresql/12/main`` in ubuntu set it up like the following
