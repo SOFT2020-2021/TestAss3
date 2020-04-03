@@ -19,6 +19,4 @@ public interface EntityController<T extends Serializable> {
 
     public boolean update();
 
-
-
 }

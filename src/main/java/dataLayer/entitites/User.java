@@ -1,16 +1,18 @@
-package businessLayer;
+package dataLayer.entitites;
+
+import businessLayer.Customer;
 
 public class User extends Transferable implements Customer {
 
-    private String cpr;
+    private int cpr;
     private String name;
 
-    public User(String cpr, String name) {
+    public User(int cpr, String name) {
         this.cpr = cpr;
         this.name = name;
     }
 
-    public void setCpr(String cpr) {
+    public void setCpr(int cpr) {
         this.cpr = cpr;
     }
 
@@ -30,7 +32,7 @@ public class User extends Transferable implements Customer {
     }
 
     @Override
-    public String getCprNumber() {
+    public int getCprNumber() {
         return this.cpr;
     }
 
@@ -38,5 +40,6 @@ public class User extends Transferable implements Customer {
     public String getName() {
         return this.name;
     }
+
 }
 

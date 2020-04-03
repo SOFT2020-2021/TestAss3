@@ -1,14 +1,15 @@
-package businessLayer;
+package dataLayer.entitites;
 
 import Exceptions.AccountNotFoundException;
-
+import businessLayer.Bank;
+import businessLayer.Customer;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Account extends Transferable {
     private Bank bank;
     private Customer customer;
-    private String number;
+    private int number;
     private long balance = 0;
     private List<Transaction> transactions = new ArrayList();
 
@@ -20,7 +21,7 @@ public class Account extends Transferable {
         this.customer = customer;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(Integer number) {
         this.number = number;
     }
 
@@ -28,8 +29,7 @@ public class Account extends Transferable {
         this.transactions = transactions;
     }
 
-
-    public Account(Bank bank, Customer customer, String number) {
+    public Account(Bank bank, Customer customer, Integer number) {
         this.bank = bank;
         this.customer = customer;
         this.number = number;
@@ -43,7 +43,7 @@ public class Account extends Transferable {
         return customer;
     }
 
-    public String getNumber() {
+    public Integer getNumber() {
         return number;
     }
 
@@ -59,7 +59,7 @@ public class Account extends Transferable {
         return System.currentTimeMillis() / 1000L;
     }
 
-    public void transfer(long amount, String targetNumber) throws AccountNotFoundException {
+    public void transfer(long amount, Integer targetNumber) throws AccountNotFoundException {
         Account target = bank.getAccount(targetNumber);
         if (target == null) throw new AccountNotFoundException();
         balance -= amount;

@@ -1,7 +1,6 @@
 package businessLayer.controllers;
 
 import contract.Contract;
-import contract.transferables.BankTransferable;
 import contract.transferables.CustomerTransferable;
 
 import java.util.List;

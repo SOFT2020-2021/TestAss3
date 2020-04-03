@@ -3,16 +3,14 @@ package dataLayer;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DAO implements Contact {
-    
-    Connection connection;
+public class DAO {
 
-    public void connect (String connectionString) {
+    public static Connection connection;
+
+    public static void connect (String connectionString) {
         try {
             Class.forName("org.postgresql.Driver");
-            connection = DriverManager
-                    .getConnection("jdbc:postgresql://localhost:5432/bank","bankuser","secret");
-
+            connection = DriverManager.getConnection(connectionString,"bankuser","secret");
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName()+": "+e.getMessage());
@@ -21,14 +19,20 @@ public class DAO implements Contact {
         System.out.println("Opened database successfully");
     }
 
-    public void open(){
-
+    public static void open() {
+        try {
+            connection.beginRequest();
+        } catch(Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 
-    public void close(){
-
+    public static void close() {
+        try {
+            connection.close();
+        } catch(Exception e){
+            System.out.println(e.getMessage());
+        }
     }
-
-    public Connection getConnection(){ return connection; }
 
 }

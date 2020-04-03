@@ -1,20 +1,23 @@
-package businessLayer;
+package dataLayer.entitites;
+
+import businessLayer.Bank;
+import businessLayer.Customer;
 
 import java.util.Map;
 
 public class MyBank extends Transferable implements Bank {
 
-    private String cvr;
+    private int cvr;
     private String name;
-    private Map<String, Account> bankAccounts;
+    private Map<Integer, Account> bankAccounts;
 
-    public MyBank(String cvr, String name, Map<String, Account> bankAccounts) {
+    public MyBank(int cvr, String name, Map<Integer, Account> bankAccounts) {
         this.cvr = cvr;
         this.name = name;
         this.bankAccounts = bankAccounts;
     }
 
-    public void setCvr(String cvr) {
+    public void setCvr(int cvr) {
         this.cvr = cvr;
     }
 
@@ -22,16 +25,16 @@ public class MyBank extends Transferable implements Bank {
         this.name = name;
     }
 
-    public Map<String, Account> getBankAccounts() {
+    public Map<Integer, Account> getBankAccounts() {
         return bankAccounts;
     }
 
-    public void setBankAccounts(Map<String, Account> bankAccounts) {
+    public void setBankAccounts(Map<Integer, Account> bankAccounts) {
         this.bankAccounts = bankAccounts;
     }
 
     @Override
-    public Account getAccount(String number) {
+    public Account getAccount(int number) {
         return bankAccounts.get(number);
     }
 
@@ -41,7 +44,7 @@ public class MyBank extends Transferable implements Bank {
     }
 
     @Override
-    public Customer getCustomer(String number) {
+    public Customer getCustomer(int number) {
         return bankAccounts.get(number).getCustomer();
     }
 
@@ -57,7 +60,7 @@ public class MyBank extends Transferable implements Bank {
     }
 
     @Override
-    public String getCvr() {
+    public int getCvr() {
         return this.cvr;
     }
 

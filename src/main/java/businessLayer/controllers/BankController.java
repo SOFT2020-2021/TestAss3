@@ -5,7 +5,7 @@ import contract.transferables.BankTransferable;
 
 import java.util.List;
 
-public class BankController implements EntityController<BankTransferable>{
+public class BankController implements EntityController<BankTransferable> {
 
     @Override
     public Contract<BankTransferable> getOne() {

@@ -3,16 +3,19 @@ package businessLayer.controllers;
 import businessLayer.*;
 import contract.Contract;
 import contract.transferables.AccountTransferable;
+import dataLayer.entitites.Account;
+import dataLayer.entitites.MyBank;
+import dataLayer.entitites.User;
 
 import java.util.HashMap;
 import java.util.List;
 
-public class AccountController implements EntityController<AccountTransferable>{
+public class AccountController implements EntityController<AccountTransferable> {
 
-    public Contract getAccount(String number){
+    public Contract getAccount(int number){
         //TODO fetch a user from the datalayer
-        Customer customer = new User("2212201111", "Sven");
-        Bank bank = new MyBank("321321", "Nordea", new HashMap<String, Account>());
+        Customer customer = new User(2201111, "Sven");
+        Bank bank = new MyBank(321321, "Nordea", new HashMap<Integer, Account>());
         Account acc = new Account(bank, customer, number);
         return (Contract<AccountTransferable>) new AccountTransferable(acc.getCustomer().getCprNumber(),bank.getCvr(), number, acc.getBalance());
     }

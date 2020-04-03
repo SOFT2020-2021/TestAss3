@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="datalayer.UserPerformerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-03T15:43:23" hostname="jonas" time="0.032">
+  <properties/>
+  <testcase name="updateTest" classname="datalayer.UserPerformerTest" time="0.021"/>
+  <testcase name="persistAndGetTest" classname="datalayer.UserPerformerTest" time="0.005"/>
+  <testcase name="deleteTest" classname="datalayer.UserPerformerTest" time="0.005"/>
+  <system-out><![CDATA[Opened database successfully
+Opened database successfully
+Opened database successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

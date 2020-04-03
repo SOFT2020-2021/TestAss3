@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2ec290-ae87-40ac-b2a6-de0096bfac3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/entitites/Transferable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/AccountPerformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/BankPerformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/TransactionPerformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/UserPerformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/UserPerformerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/createTestBank.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/dropTestBank.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -17,14 +28,158 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/MyBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/Transferable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/AccountController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/businessLayer/controllers/TransactionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dataLayer/Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dataLayer/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dataLayer/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/businessLayer/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/businessLayer/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/businessLayer/MyBankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/businessLayer/MyBankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/businessLayer/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/businessLayer/TransactionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/businessLayer.AccountTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/businessLayer.MyBankTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/businessLayer.TransactionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/businessLayer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-businessLayer.AccountTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-businessLayer.MyBankTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-businessLayer.TransactionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/java-compiler-args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/java-compiler-args.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/TestAssignmentContract-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/TestAssignmentContract-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/entitites/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/MyBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/entitites/MyBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/entitites/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/Transferable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/entitites/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/BankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/BankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/EntityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/EntityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businessLayer/controllers/TransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataLayer/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/businessLayer/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/businessLayer/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/businessLayer/MyBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/businessLayer/MyBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/businessLayer/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/businessLayer/TransactionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: database" type="162271b6:PgImplModel$Database" />
+        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: database" type="162271b6:PgImplModel$Database" />
+        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testbank: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testbank: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testbank: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testbank: database" type="162271b6:PgImplModel$Database" />
+        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testbank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testbank: database" type="162271b6:PgImplModel$Database" />
+        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -54,8 +209,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,19 +218,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zqb0HJnKNh9rG3jUMTmOZ88Y2P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.57879233" />
@@ -89,7 +249,7 @@
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DAO">
+  <component name="RunManager" selected="Gradle.UserPerformerTest">
     <configuration name="DAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataLayer.DAO" />
       <module name="testAssignment.main" />
@@ -123,12 +283,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'businessLayer'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyBankTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;businessLayer.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;businessLayer.MyBankTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TransactionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;businessLayer.TransactionTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserPerformerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;datalayer.UserPerformerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,9 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DAO" />
-        <item itemvalue="Gradle.Tests in 'businessLayer'" />
+        <item itemvalue="Gradle.UserPerformerTest" />
+        <item itemvalue="Gradle.TransactionTest" />
+        <item itemvalue="Gradle.MyBankTest" />
         <item itemvalue="Gradle.AccountTest" />
+        <item itemvalue="Application.DAO" />
       </list>
     </recent_temporary>
   </component>
@@ -164,30 +366,40 @@
       <workItem from="1585569350270" duration="4383000" />
       <workItem from="1585576101344" duration="16714000" />
       <workItem from="1585768311129" duration="5313000" />
-      <workItem from="1585869993870" duration="3558000" />
+      <workItem from="1585869993870" duration="33015000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="800" height="677" key="#Project_Structure" timestamp="1585768969682">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585768969682" />
-    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585578078999">
+    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects" timestamp="1585899953120">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects/67.27.3773.1053@67.27.3773.1053" timestamp="1585899953120" />
+    <state x="867" y="137" width="673" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585924940373">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585578078999" />
+    <state x="867" y="137" width="673" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585924940373" />
+    <state x="853" y="211" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1585900739278" />
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585586576851">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585586576851" />
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585771784479">
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585905775450">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585771784479" />
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1585905775450" />
     <state x="2193" y="287" width="1646" height="490" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1585600380470">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -196,14 +408,19 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="513" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585599510992" />
-    <state x="684" y="413" width="619" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585570315739">
+    <state x="684" y="413" width="619" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585912617532">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="684" y="413" width="619" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585570315739" />
+    <state x="684" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1585912617532" />
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585574694204">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585574694204" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585911318615">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585911318615" />
     <state x="667" y="173" width="642" height="758" key="#testAssignment" timestamp="1585571480456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -212,46 +429,59 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="626" height="506" key="DebuggerActiveHint/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585582471741" />
-    <state x="776" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1585600268846">
+    <state x="776" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1585911653212">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585600268846" />
-    <state width="1807" height="285" key="GridCell.Tab.0.bottom" timestamp="1585875967094">
+    <state x="776" y="296" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585911653212" />
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom" timestamp="1585928601892">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1585875967094" />
-    <state width="1807" height="285" key="GridCell.Tab.0.center" timestamp="1585875967094">
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1585928601892" />
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956255" />
+    <state width="1807" height="285" key="GridCell.Tab.0.center" timestamp="1585928601892">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1585875967094" />
-    <state width="1807" height="285" key="GridCell.Tab.0.left" timestamp="1585875967093">
+    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1585928601892" />
+    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956254" />
+    <state width="1807" height="285" key="GridCell.Tab.0.left" timestamp="1585928601891">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1585875967093" />
-    <state width="1807" height="285" key="GridCell.Tab.0.right" timestamp="1585875967094">
+    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1585928601891" />
+    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956254" />
+    <state width="1807" height="285" key="GridCell.Tab.0.right" timestamp="1585928601892">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585875967094" />
-    <state width="1807" height="352" key="GridCell.Tab.1.bottom" timestamp="1585601004696">
+    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585928601892" />
+    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956255" />
+    <state width="1807" height="352" key="GridCell.Tab.1.bottom" timestamp="1585928025253">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004696" />
-    <state width="1807" height="352" key="GridCell.Tab.1.center" timestamp="1585601004695">
+    <state width="1807" height="352" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1585928025253" />
+    <state width="1807" height="352" key="GridCell.Tab.1.center" timestamp="1585928025252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="352" key="GridCell.Tab.1.left" timestamp="1585601004695">
+    <state width="1807" height="352" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1585928025252" />
+    <state width="1807" height="352" key="GridCell.Tab.1.left" timestamp="1585928025252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
-    <state width="1807" height="352" key="GridCell.Tab.1.right" timestamp="1585601004696">
+    <state width="1807" height="352" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1585928025252" />
+    <state width="1807" height="352" key="GridCell.Tab.1.right" timestamp="1585928025252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="352" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004696" />
+    <state width="1807" height="352" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585928025252" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1585924387397">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1585924387397" />
     <state x="620" y="124" width="1024" height="845" key="SettingsEditor" timestamp="1585875771050">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -278,32 +508,47 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="302" y="146" width="1372" height="813" key="new project wizard/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585587082444" />
-    <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1585599700243">
+    <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1585921891627">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" width="672" height="677" key="run.anything.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585599700243" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585582340862">
+    <state x="657" y="253" width="672" height="677" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585921891627" />
+    <state x="588" y="214" width="800" height="677" key="scopes" timestamp="1585911256647">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="scopes/67.27.1853.1053@67.27.1853.1053" timestamp="1585911256647" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585907595560">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585582340862" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585907595560" />
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585921380110">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585921380110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/businessLayer/Account.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/src/main/java/dataLayer/entitites/Account.java</url>
+          <line>63</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/businessLayer/AccountTest.java</url>
-          <line>75</line>
+          <line>76</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/businessLayer/AccountTest.java</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataLayer/performers/UserPerformer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

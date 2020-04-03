@@ -1,4 +1,4 @@
-package businessLayer;
+package dataLayer.entitites;
 
 public class Transaction extends Transferable {
         Account target;

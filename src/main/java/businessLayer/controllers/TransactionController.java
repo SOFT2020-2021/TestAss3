@@ -1,12 +1,11 @@
 package businessLayer.controllers;
 
 import contract.Contract;
-import contract.transferables.BankTransferable;
 import contract.transferables.TransactionTransferable;
 
 import java.util.List;
 
-public class TransactionController implements EntityController<TransactionTransferable>{
+public class TransactionController implements EntityController<TransactionTransferable> {
 
     @Override
     public Contract<TransactionTransferable> getOne() {

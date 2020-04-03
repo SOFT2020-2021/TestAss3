@@ -1,19 +1,20 @@
 package businessLayer;
 
 import Exceptions.AccountNotFoundException;
+import dataLayer.entitites.Account;
 
 public interface Bank {
 
-    Account getAccount(String number) throws AccountNotFoundException;
+    Account getAccount(int number) throws AccountNotFoundException;
 
     void registerAccount(Account account);
 
-    Customer getCustomer(String number);
+    Customer getCustomer(int number);
 
     void registerCustomer(Customer customer);
 
     String getName();
 
-    String getCvr();
+    int getCvr();
 
 }

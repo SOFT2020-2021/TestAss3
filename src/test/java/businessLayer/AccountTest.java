@@ -1,10 +1,11 @@
 package businessLayer;
 
 import Exceptions.AccountNotFoundException;
+import dataLayer.entitites.Account;
+import dataLayer.entitites.MyBank;
 import org.junit.*;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
@@ -13,7 +14,7 @@ public class AccountTest {
 
     MyBank bank;
     Customer customer;
-    String accountNumber;
+    Integer accountNumber;
     Account account;
     Account target;
 
@@ -21,11 +22,11 @@ public class AccountTest {
     public void setup(){
         bank = mock(MyBank.class);
         customer = mock(Customer.class);
-        accountNumber = "ABC12345";
-        var targetNumber = "TGT12345";
+        accountNumber = 12345;
+        Integer targetNumber = 12345;
         account = new Account(bank, customer, accountNumber);
         target = new Account(bank, customer, targetNumber);
-        var accounts = new HashMap<String, Account>();
+        HashMap<Integer, Account> accounts = new HashMap<>();
         accounts.put(accountNumber,account);
         accounts.put(targetNumber, target);
         bank.setBankAccounts(accounts);
@@ -68,10 +69,10 @@ public class AccountTest {
         int sourceTransactionsSizeBefore = account.getTransactions().size();
 
         Exception exception = assertThrows(AccountNotFoundException.class, () -> {
-            account.transfer(100, "I do not exist");
+            account.transfer(100, 1873123632);
         });
 
-        when(bank.getAccount(anyString())).thenReturn(target);
+        when(bank.getAccount(anyInt())).thenReturn(target);
         try {
             account.transfer(10000, target.getNumber());
             assertEquals(targetTransactionsSizeBefore + 1, target.getTransactions().size());

@@ -1,5 +1,9 @@
 package businessLayer;
 
+import dataLayer.entitites.Account;
+import dataLayer.entitites.MyBank;
+import dataLayer.entitites.Transaction;
+import dataLayer.entitites.User;
 import org.junit.*;
 import static org.mockito.Mockito.mock;
 
@@ -10,7 +14,7 @@ public class TransactionTest {
 
         long amount =1000L;
         long timestamp = 10000L;
-        var acc = new Account(mock(MyBank.class), mock(User.class), "test");
+        var acc = new Account(mock(MyBank.class), mock(User.class), 112);
 
         Transaction movementTest = new Transaction(acc, amount, timestamp);
 
