@@ -50,7 +50,8 @@ public class UserPerformerTest {
                     "(\n" +
                     "    id        SERIAL PRIMARY KEY,\n" +
                     "    retriever INT references accounts (id) NOT NULL,\n" +
-                    "    giver     INT references accounts (id) NOT NULL,\n" +
+                    "    giver     INT " +
+                    " accounts (id) NOT NULL,\n" +
                     "    amount    INT                          NOT NULL\n" +
                     ");");
             st.close();
