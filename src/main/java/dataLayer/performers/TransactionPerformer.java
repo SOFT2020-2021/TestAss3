@@ -4,11 +4,13 @@ import dataLayer.entitites.Transaction;
 
 public class TransactionPerformer {
 
-    public Transaction getOne() {
+
+
+    public Transaction get() {
         return null;
     }
 
-    public boolean deleteOne() {
+    public boolean delete() {
         return false;
     }
 
