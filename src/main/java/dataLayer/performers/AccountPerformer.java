@@ -17,6 +17,7 @@ public class AccountPerformer {
 
             if (rs.next()) {
                 acc = new Account(null, null, rs.getInt(1));
+                acc.setBalance(rs.getInt(2)) ;
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -36,7 +37,7 @@ public class AccountPerformer {
 
     public void persist(int balance, int cpr, int cvr) {
         try {
-            PreparedStatement ps = DAO.connection.prepareStatement("INSERT INTO accounts(balance, customerCpr, bankCvr) VALUES(?,?,?);");
+            PreparedStatement ps = DAO.connection.prepareStatement("INSERT INTO accounts(balance, customerCpr, bankCvr) VALUES(?,?,?) ;");
             ps.setInt(1, balance);
             ps.setInt(2, cpr);
             ps.setInt(3, cvr);

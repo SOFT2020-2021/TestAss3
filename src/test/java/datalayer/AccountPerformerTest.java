@@ -20,7 +20,7 @@ public class AccountPerformerTest {
     @BeforeClass
     public static void setup() {
         try {
-            DAO.connect("jdbc:postgresql://localhost:5432/bank");
+            DAO.connect("jdbc:postgresql://192.168.1.137:5432/bank");
             Statement st = DAO.connection.createStatement();
 
             st.executeUpdate("DROP DATABASE IF EXISTS testbank;");
@@ -28,7 +28,7 @@ public class AccountPerformerTest {
 
             st.close();
             DAO.close();
-            DAO.connect("jdbc:postgresql://localhost:5432/testbank");
+            DAO.connect("jdbc:postgresql://192.168.1.137:5432/testbank");
 
             st = DAO.connection.createStatement();
             st.executeUpdate("CREATE TABLE users\n" +
@@ -67,7 +67,7 @@ public class AccountPerformerTest {
     @AfterClass
     public static void teardown() throws SQLException {
         DAO.close();
-        DAO.connect("jdbc:postgresql://localhost:5432/bank");
+        DAO.connect("jdbc:postgresql://192.168.1.137:5432/bank");
         Statement st = DAO.connection.createStatement();
         st.executeUpdate("DROP DATABASE IF EXISTS testbank;");
         st.close();
@@ -87,9 +87,9 @@ public class AccountPerformerTest {
     public void persistAndGetTest() {
         up.persist(765, "Loltest");
         bp.persist(567, "Loltest");
-        Assert.assertNull(ap.get(0));
+        Assert.assertNull(ap.get(1));
         ap.persist(100, 765, 567);
-        Account account = ap.get(0);
+        Account account = ap.get(1);
         Assert.assertEquals(account.getBalance(), 100);
     }
 

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="org.example.testAssignment.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/org_example_testAssignment_main_war_exploded</output-path>
+    <root id="archive" name="org.example.testAssignment.main_war exploded.war">
+      <element id="javaee-facet-resources" facet="org.example.testAssignment.main/web/Web" />
+    </root>
+  </artifact>
+</component>

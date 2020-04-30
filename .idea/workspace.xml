@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="org.example.testAssignment.main:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2ec290-ae87-40ac-b2a6-de0096bfac3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/bank-backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/AccountPerformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/BankPerformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datalayer/TransactionPerformerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/org_example_testAssignment_main_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/org.example.testAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/org.example.testAssignment.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/testAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF/jersey-common-2.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF/jersey-container-servlet-2.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF/lib/jersey-common-2.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF/lib/jersey-container-servlet-2.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2/artifacts/org_example_testAssignment_main_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resourses/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/json/JsonSerilizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -22,20 +38,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bank-backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_containers_jersey_container_servlet_core_2_30_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_client_2_30_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_common_2_30_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_server_2_30_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_media_jersey_media_jaxb_2_30_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/AccountPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/AccountPerformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/BankPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/BankPerformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/TransactionPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dataLayer/performers/TransactionPerformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/datalayer.UserPerformerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/datalayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/datalayer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-datalayer.UserPerformerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/datalayer/UserPerformerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/datalayer/UserPerformerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/testAssignment-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/testAssignment-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/java-compiler-args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/java-compiler-args.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataLayer/performers/AccountPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/AccountPerformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataLayer/performers/BankPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/BankPerformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataLayer/performers/TransactionPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataLayer/performers/TransactionPerformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datalayer/AccountPerformerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datalayer/AccountPerformerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,38 +81,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="bank@192.168.1.137" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="bank@192.168.1.137" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bank: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="bank@192.168.1.137" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bank: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bank: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -114,6 +119,66 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="testAssignment" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testAssignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -131,6 +196,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Zqb0HJnKNh9rG3jUMTmOZ88Y2P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -150,34 +222,49 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/org_example_testAssignment_main_war_exploded/WEB-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.57879233" />
+    <property name="project.structure.side.proportion" value="0.4580265" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spamm\IdeaProjects\TestAss3\src\main" />
+      <recent name="C:\Users\spamm\IdeaProjects\TestAss3\src\main\java\webapp" />
+      <recent name="C:\Users\spamm\IdeaProjects\TestAss3\src\main\java" />
+      <recent name="C:\Users\spamm\IdeaProjects\TestAss3\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="PresentationLayer.Controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\spamm\IdeaProjects\TestAss3\src\main" />
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AccountPerformerTest.persistAndGetTest">
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/src/main/webapp" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.34">
     <configuration name="AccountPerformerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datalayer.AccountPerformerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datalayer.AccountPerformerTest&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,95 +279,192 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AccountPerformerTest.persistAndGetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAss3 [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datalayer.AccountPerformerTest.persistAndGetTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="buildDependents" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankPerformerTest.deleteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAss3 [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datalayer.BankPerformerTest.deleteTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="buildNeeded" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankPerformerTest.persistAndGetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAss3 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datalayer.BankPerformerTest.persistAndGetTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankPerformerTest.updateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAss3 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datalayer.BankPerformerTest.updateTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="org.example.testAssignment.main:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/test" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_testAssignment_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52939" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="org.example.testAssignment.main:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.AccountPerformerTest" />
+      <item itemvalue="Gradle.TestAss3 [build]" />
+      <item itemvalue="Gradle.TestAss3 [buildDependents]" />
+      <item itemvalue="Gradle.TestAss3 [buildNeeded]" />
+      <item itemvalue="Gradle.TestAss3 [dependencies]" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AccountPerformerTest.persistAndGetTest" />
-        <item itemvalue="Gradle.BankPerformerTest.deleteTest" />
-        <item itemvalue="Gradle.BankPerformerTest.updateTest" />
-        <item itemvalue="Gradle.BankPerformerTest.persistAndGetTest" />
+        <item itemvalue="Gradle.TestAss3 [dependencies]" />
+        <item itemvalue="Gradle.TestAss3 [buildNeeded]" />
+        <item itemvalue="Gradle.TestAss3 [buildDependents]" />
+        <item itemvalue="Gradle.TestAss3 [build]" />
         <item itemvalue="Gradle.AccountPerformerTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -298,6 +482,14 @@
       <workItem from="1585869993870" duration="33015000" />
       <workItem from="1585932030624" duration="2516000" />
       <workItem from="1585934689897" duration="4372000" />
+      <workItem from="1587121697674" duration="6248000" />
+      <workItem from="1587210655853" duration="3805000" />
+      <workItem from="1587553434387" duration="3000" />
+      <workItem from="1587974813078" duration="610000" />
+      <workItem from="1588061850004" duration="600000" />
+      <workItem from="1588068485740" duration="15274000" />
+      <workItem from="1588083826416" duration="829000" />
+      <workItem from="1588085329312" duration="4166000" />
     </task>
     <servers />
   </component>
@@ -308,17 +500,31 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="214" width="800" height="677" key="#Project_Structure" timestamp="1585768969682">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1431" y="296" key="#BuildArtifactsBeforeRunChooser" timestamp="1588079294606">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1431" y="296" key="#BuildArtifactsBeforeRunChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1588079294606" />
+    <state x="872" y="361" key="#Inspections" timestamp="1588081146541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="361" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1588081146541" />
+    <state x="720" y="249" width="800" height="677" key="#Project_Structure" timestamp="1588082779383">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="720" y="249" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1588082779383" />
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585768969682" />
     <state x="588" y="214" width="800" height="677" key="#SQL_Dialects" timestamp="1585899953120">
       <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#SQL_Dialects/67.27.3773.1053@67.27.3773.1053" timestamp="1585899953120" />
-    <state x="867" y="137" width="699" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585932420263">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="980" y="345" key="#Tomcat_9.0.34" timestamp="1588072141364">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="980" y="345" key="#Tomcat_9.0.34/0.0.2560.1400@0.0.2560.1400" timestamp="1588072141364" />
+    <state x="1105" y="146" width="699" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588082879504">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1105" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588082879504" />
     <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585578078999" />
     <state x="867" y="137" width="699" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585932420263" />
     <state x="853" y="211" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1585900739278" />
@@ -331,6 +537,14 @@
     </state>
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585771784479" />
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1585905775450" />
+    <state x="1190" y="467" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1588080739579">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1190" y="467" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.2560.1400@0.0.2560.1400" timestamp="1588080739579" />
+    <state x="1252" y="467" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1588080757819">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1252" y="467" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588080757819" />
     <state x="2193" y="287" width="1646" height="490" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1585600380470">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -364,62 +578,89 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="626" height="506" key="DebuggerActiveHint/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585582471741" />
-    <state x="776" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1585911653212">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1068" y="475" width="424" height="513" key="FileChooserDialogImpl" timestamp="1588083165153">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1068" y="475" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1588083165153" />
     <state x="776" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585600268846" />
     <state x="776" y="296" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585911653212" />
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1585938867122">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.0.bottom" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867122" />
     <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956255" />
-    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1585938867121">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.0.center" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867121" />
     <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956254" />
-    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1585938867121">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.0.left" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867121" />
     <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956254" />
-    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1585938867227">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.0.right" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867227" />
     <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1585901956255" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1585938867123">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.1.bottom" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004696" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867123" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1585938867122">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.1.center" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867122" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1585938867122">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.1.left" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004695" />
     <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867122" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1585938867123">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.1.right" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
     <state width="1807" height="352" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585601004696" />
     <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585938867123" />
-    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1585924387397">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1741" height="401" key="GridCell.Tab.2.bottom" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1741" height="401" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
+    <state width="1741" height="401" key="GridCell.Tab.2.center" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
+    <state width="1741" height="401" key="GridCell.Tab.2.left" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
+    <state width="1741" height="401" key="GridCell.Tab.2.right" timestamp="1588103108620">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1588103108620" />
+    <state width="364" height="665" key="HiddenNamespacesPopup" timestamp="1587121956149">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="364" height="665" key="HiddenNamespacesPopup/0.0.2560.1400@0.0.2560.1400" timestamp="1587121956149" />
     <state width="263" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1585924387397" />
-    <state x="620" y="124" width="1024" height="845" key="SettingsEditor" timestamp="1585933075717">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="764" y="129" width="1378" height="845" key="SettingsEditor" timestamp="1588088616502">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="764" y="129" width="1378" height="845" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1588088616502" />
     <state x="2493" y="99" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1585600381496" />
     <state x="620" y="124" width="1024" height="845" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585600302105" />
     <state x="620" y="124" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1585933075717" />
@@ -444,9 +685,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="638" y="291" width="710" height="522" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585574791619" />
-    <state x="302" y="146" width="1372" height="813" key="new project wizard" timestamp="1585587082444">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="995" y="503" key="git4idea.merge.GitPullDialog" timestamp="1588068986033">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="995" y="503" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588068986033" />
+    <state x="325" y="158" width="1372" height="813" key="new project wizard" timestamp="1588078771924">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="325" y="158" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1588078771924" />
     <state x="302" y="146" width="1372" height="813" key="new project wizard/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585587082444" />
     <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1585921891627">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -471,11 +717,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataLayer/entitites/Account.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/businessLayer/AccountTest.java</url>
           <line>76</line>
           <option name="timeStamp" value="6" />
@@ -487,5 +728,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="((PgResultSet)rs).rows" custom="org.postgresql.jdbc.PgResultSet" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
